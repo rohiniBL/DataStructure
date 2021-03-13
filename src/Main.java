@@ -2,31 +2,46 @@
 public class Main {
 	
 	public static void main(String[] args) {
-		System.out.println("hi");
-	//	LinkedList list=new LinkedList();
-	   MyStack stack=new MyStack();
-	   stack.push(55);
-	   stack.push(41);
-	   stack.push(40);
-	   stack.push(50);
-	  // stack.pop();
-	  // stack.pop();
-	 //  stack.rear(1);
-//	   stack.rear(2);
-//	   stack.rear(3);
-//	   stack.rear(4);
-//	   stack.front();
-	   stack.list();
-	  // System.out.println(stack.peak());
-		
-		
-//		list.insertAtPos(55, 2);
-//		list.search(40);
-       // list.deleteLast();
-//		list.viewList();
 	
-		//System.out.println(list.getSize());
-////		list.insertAtFirst(10);
+		LinkedList list=new LinkedList();
+		
+		String value1="Rohini";
+		String value2="Patil";
+		
+		System.out.println(value1.hashCode()   +" ==== "+value2.hashCode());
+		
+		if(value1.equals(value2)) {
+			System.out.println("Equal");
+		}else {
+			System.out.println("UnEqual");
+		}
+		
+		
+//	     Stack stack=new Stack();
+//	     stack.push(40);
+//         stack.push(60);
+//         stack.push(30);
+//         stack.push(66);
+//         stack.pop();
+//         stack.list();
+//         System.out.println( "\nPeak"+ stack.peak());
+//		
+		
+		
+		
+//		Queue queue=new Queue();
+//		queue.rear(40);
+//		queue.rear(60);
+//		queue.rear(45);
+//		queue.rear(88);
+//		queue.rear(666);
+//		queue.list();
+//		
+//		System.out.println("After");
+//		queue.front();
+//		queue.list();
+//		
+//
 ////		list.insertAtFirst(20);
 //		//list.insertAtFirst(40);
 //     	list.insertAtFirst(30);
